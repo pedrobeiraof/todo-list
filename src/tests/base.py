@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_testing import TestCase
-from server import create_app
+from app import create_app
 
 class BaseTest(TestCase):
     TESTING = True
